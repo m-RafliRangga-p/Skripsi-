@@ -92,6 +92,10 @@ nav > .menu-items{
     gap: 30px;
 }
 
+.sec-1 p{
+    text-align: justify;
+}
+
 .side {
     flex: 1;
 }
