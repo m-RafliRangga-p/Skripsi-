@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skripsi+ About</title>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+
+      .banner {
+        width: 100%;
+        height: 400px;
+        background-image: url("https://picsum.photos/1200/400");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        border-radius: 0 0 40px 40px;
+      }
+
+      .about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        padding: 0 2rem;
+      }
+
+      .about-sec-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        gap: 2.5rem;
+        padding: 4rem;
+      }
+
+      .about-sec-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        gap: 2.5rem;
+        padding: 4rem;
+      }
+
+      .carousel-container {
+        width: 80vw;
+        padding: 1rem 2rem;
+        margin: 1rem 2rem;
+        overflow-x: auto;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        scroll-snap-type: x mandatory;
+      }
+
+      .carousel-slide {
+        flex: 1 0 30%;
+        aspect-ratio: 1;
+        flex-flow: column nowrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5%;
+        scroll-snap-align: center;
+        gap: 1rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .carousel-slide p {
+        text-align: center;
+        font-size: 0.95rem;
+      }
+
+      .slide-img-title {
+        width: 6rem;
+        object-fit: cover;
+        border-radius: 100%;
+      }
+
+      .subtitle-container {
+        display: flex;
+        gap: 2rem;
+      }
+
+      .slide-img-subtitle {
+        width: 3rem;
+        object-fit: cover;
+        border-radius: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar">
+      <img class="logo" src="src/Light-removebg-preview.png" alt="Logo" />
+      <div class="menu-items">
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Mentor.html">Mentors</a>
+        <a href="Course.html">Courses</a>
+        <a href="Faq.html">FaQ's</a>
+      </div>
+      <div class="buttons">
+        <button class="btn btn-login"><a href="#">Login</a></button>
+        <button class="btn btn-register"><a href="#">Register</a></button>
+      </div>
+    </nav>
+
+    <div class="banner"></div>
+
+    <!-- content -->
+    <div class="about-content">
+      <!-- section 1 -->
+      <div class="about-sec-1">
+        <h2>Who We Are?</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis et,
+          voluptate nulla beatae recusandae aliquam praesentium architecto at
+          eligendi possimus totam placeat eius. Cum numquam consectetur
+          temporibus. Odit, vitae fuga! Aliquam error optio explicabo quia odit
+          voluptatibus ipsum illum voluptatum adipisci, laborum vitae ullam
+          minima doloremque! Deserunt sequi ipsam, libero esse delectus
+          asperiores officiis non ad impedit quis excepturi deleniti. Hic
+          aperiam incidunt illum molestias qui repellat nihil cumque non
+          cupiditate sequi libero officia sapiente voluptates quo nostrum ex
+          quasi deserunt harum laborum, accusamus iure! Nisi velit blanditiis
+          magni cupiditate.
+        </p>
+      </div>
+
+      <!-- section 2 -->
+      <div class="about-sec-2">
+        <h2>Meet Our Teams</h2>
+        <!-- carousel -->
+        <div class="carousel-container">
+          <!-- slide 1 -->
+          <div class="carousel-slide">
+            <img
+              src="https://picsum.photos/200"
+              alt=""
+              class="slide-img-title"
+            />
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+            <div class="subtitle-container">
+              <img
+                src="https://picsum.photos/200"
+                alt=""
+                class="slide-img-subtitle"
+              />
+              <img
+                src="https://picsum.photos/200"
+                alt=""
+                class="slide-img-subtitle"
+              />
+              <img
+                src="https://picsum.photos/200"
+                alt=""
+                class="slide-img-subtitle"
+              />
+            </div>
+          </div>
+          <!-- slide 2 -->
+          <div class="carousel-slide">
+            <img
+              src="https://picsum.photos/200"
+              alt=""
+              class="slide-img-title"
+            />
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+            <div class="subtitle-container">
+              <img
+                src="https://picsum.photos/200"
+                alt=""
+                class="slide-img-subtitle"
+              />
+              <img
+                src="https://picsum.photos/200"
+                alt=""
+                class="slide-img-subtitle"
+              />
+              <img
+                src="https://picsum.photos/200"
+                alt=""
+                class="slide-img-subtitle"
+              />
+            </div>
+          </div>
+          <!-- slide 3 -->
+          <div class="carousel-slide">
+            <img
+              src="https://picsum.photos/200"
+              alt=""
+              class="slide-img-title"
+            />
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+            <div class="subtitle-container">
+              <img
+                src="https://picsum.photos/200"
+                alt=""
+                class="slide-img-subtitle"
+              />
+              <img
+                src="https://picsum.photos/200"
+                alt=""
+                class="slide-img-subtitle"
+              />
+              <img
+                src="https://picsum.photos/200"
+                alt=""
+                class="slide-img-subtitle"
+              />
+            </div>
+          </div>
+          <!-- slide 4 -->
+          <div class="carousel-slide">
+            <img
+              src="https://picsum.photos/200"
+              alt=""
+              class="slide-img-title"
+            />
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+            <div class="subtitle-container">
+              <img
+                src="https://picsum.photos/200"
+                alt=""
+                class="slide-img-subtitle"
+              />
+              <img
+                src="https://picsum.photos/200"
+                alt=""
+                class="slide-img-subtitle"
+              />
+              <img
+                src="https://picsum.photos/200"
+                alt=""
+                class="slide-img-subtitle"
+              />
+            </div>
+          </div>
+          <!-- slide 5 -->
+          <div class="carousel-slide">
+            <img
+              src="https://picsum.photos/200"
+              alt=""
+              class="slide-img-title"
+            />
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+            <div class="subtitle-container">
+              <img
+                src="https://picsum.photos/200"
+                alt=""
+                class="slide-img-subtitle"
+              />
+              <img
+                src="https://picsum.photos/200"
+                alt=""
+                class="slide-img-subtitle"
+              />
+              <img
+                src="https://picsum.photos/200"
+                alt=""
+                class="slide-img-subtitle"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script buat navbar scroll ada warnanya -->
+    <script src="script/nav-scroll.js"></script>
+  </body>
+</html>
