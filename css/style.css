@@ -511,3 +511,7 @@ footer a:hover {
     /* adit tes */
   padding: 125px 50px;
 }
+
+.contact{
+  grid-template-columns: repeat(1, 1fr);
+}
