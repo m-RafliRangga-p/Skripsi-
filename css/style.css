@@ -18,6 +18,14 @@
     box-shadow: var(--box-shadow);
 }
 
+h1{
+    font-size: 42px;
+}
+
+h2{
+    font-size: 38px;
+}
+
 /* NAVBAR */
 nav {
     display: flex;
@@ -65,25 +73,25 @@ nav > .menu-items{
 }
 
 .btn-login{
-    background-color: var(--c-brand);
+    background-color: white;
+    border: 1px solid var(--c-dark);
 }
 
 .btn-login > a{
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
+    color: var(--c-brand);
     font-size: 14px;
 }
 
 .btn-register{
-    background-color: white;
-    border: 1px solid var(--c-dark);
+    background-color: var(--c-brand);
 }
 
 .btn-register > a{
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--c-brand);
+    color: white;
     font-size: 14px;
 }
 
@@ -112,9 +120,15 @@ nav > .menu-items{
     text-align: center;
 }
 
-.main img {
+/* .main img {
     width: 300px; 
     margin-bottom: 10px; 
+} */
+
+.main h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--c-dark);
 }
 
 .main span{
@@ -198,8 +212,11 @@ nav > .menu-items{
     border-radius: 10px;
 }
 
-.count h2{
+.count .num{
     color: white;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
 }
 
 /* SECTION 3 */
