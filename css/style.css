@@ -114,9 +114,6 @@ nav > .menu-items {
   display: flex;
   background-color: #f5f8fa;
   gap: 30px;
-
-  /* adit tes */
-  padding: 125px 50px;
 }
 
 .sec-1 p {
@@ -508,4 +505,9 @@ footer a:hover {
 
 .btn-search:hover {
   background-color: #4caf50;
+}
+
+.upper-padding{
+    /* adit tes */
+  padding: 125px 50px;
 }
